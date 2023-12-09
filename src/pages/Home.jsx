@@ -20,6 +20,9 @@ import clientLogo_2 from "../images/partner/client-logo-2.png"
 import clientLogo_3 from "../images/partner/client-logo-3.png"
 import clientLogo_4 from "../images/partner/client-logo-4.png"
 import clientLogo_5 from "../images/partner/client-logo-5.png"
+import whyUs from "../images/why-us.png"
+import skills from "../images/skills.png"
+
 
 
 
@@ -55,6 +58,27 @@ const Home = ({ }) => {
                 <img src={dot2} class="img-fluid bg-shape-2" alt="bg-shape" /> */}
             </section>
 
+            <section class="section section-lg-bottom bg-light my-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 my-3">
+                            <ul class="list-inline d-flex justify-content-between align-items-center">
+                                <li class="list-inline-item"><a href="#"><img class="img-fluid p-2" src={clientLogo_1}
+                                    alt="partner-1" /></a></li>
+                                <li class="list-inline-item"><a href="#"><img class="img-fluid p-2" src={clientLogo_2}
+                                    alt="partner-2" /></a></li>
+                                <li class="list-inline-item"><a href="#"><img class="img-fluid p-2" src={clientLogo_3}
+                                    alt="partner-3" /></a></li>
+                                <li class="list-inline-item"><a href="#"><img class="img-fluid p-2" src={clientLogo_4}
+                                    alt="partner-4" /></a></li>
+                                <li class="list-inline-item"><a href="#"><img class="img-fluid p-2" src={clientLogo_5}
+                                    alt="partner-5" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section class="position-relative">
                 <div class="container">
                     <div class="row">
@@ -84,30 +108,66 @@ const Home = ({ }) => {
             <section class="section pb-0 my-4">
                 <div class="container">
                     <div class="row">
-                        {/* <div class="col-md-6 pr-lg-4 mb-4 mb-md-0">
+                        <div class="col-md-6 pr-lg-4 mb-4 mb-md-0">
                             <div class="position-relative">
-                                <img src={About_3} class="img-fluid rounded-sm" alt="video-bg" />
-                                <div class="floating-video overlay rounded-sm">
-                                    <img src={About_4} class="img-fluid rounded-sm" alt="video-thumb" />
-                                    <a class="venobox play-icon icon-center" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?v=jrkvirglgaQ">
-                                        <i class="fa fa-play text-secondary bg-white rounded-circle"></i>
-                                    </a>
-                                </div>
+                                <img src={whyUs} class="img-fluid rounded-sm" alt="video-bg" />
                             </div>
-                        </div> */}
-                        <div class="col-md-6 align-self-center pl-lg-4">
-                            <h2 class="section-title">It is like getting a superhuman for your company becauzm,cvmcse the communication is only with one person.n</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipicing elit sed do usmod tempor
-                                incididunt.enim ad minim veniam, quis nostrud exer citation ulla mco laboris nisi ut aliquip commodo.</p>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accu santium
-                                doloreque laudantum.</p>
-                            <a class="btn btn-primary" href="#">Contact Us</a>
+                        </div>
+                        <div class="col-md-6 pl-lg-4">
+                        <h2 class="section-title">It is like getting a superhuman for your company becauzm,cvmcse the communication is only with one person.n</h2>
+                            <ul class="list-unstyled process-steps">
+                                <li class="bg-white d-inline-flex shadow rounded-xs p-4 my-2">
+                                    <div class="mr-3">
+                                        <span class="text-secondary step-number bg-gray-light rounded-circle">01</span>
+                                    </div>
+                                    <div class="align-self-center">
+                                        <h5>How do I get started with my company?</h5>
+                                    {/* <p class="mb-0">Lorem ipsum dolor sit amet consect.</p> */}
+                                    </div>
+                                </li>
+                                <li class="bg-white d-inline-flex shadow rounded-xs p-4 my-2">
+                                    <div class="mr-3">
+                                        <span class="text-secondary step-number bg-gray-light rounded-circle">02</span>
+                                    </div>
+                                    <div class="align-self-center">
+                                        <h5>What fields are available? And what about location</h5>
+                                        {/* <p class="mb-0">Lorem ipsum dolor sit amet consect.</p> */}
+                                    </div>
+                                </li>
+                                <li class="bg-white d-inline-flex shadow rounded-xs p-4 my-2">
+                                    <div class="mr-3">
+                                        <span class="text-secondary step-number bg-gray-light rounded-circle">03</span>
+                                    </div>
+                                    <div class="align-self-center">
+                                        <h5>What is the process?</h5>
+                                        <p class="mb-0">Just like hiring an employee, we sign a contract .Then you start giving work to the team manager and revolution begins.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section pb-0 my-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 pr-lg-4 mb-4 mb-md-0">
+                            <div class="position-relative">
+                                <img src={skills} class="img-fluid rounded-sm" alt="video-bg" />
+                            </div>
+                        </div>
+                        <div class="col-md-6 pl-lg-4">
+                        <h2 class="section-title">Advantages of this process</h2>
+                        <p className="italic">This process have a lot of advantages, some are listed below-</p>
+                        <h6>SAVING TIME AND EFFORT</h6>
+                            
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="section position-relative overflow-hidden">
+            {/* <section class="section position-relative overflow-hidden">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 align-self-center pr-lg-4 mb-4 mb-md-0">
@@ -120,6 +180,7 @@ const Home = ({ }) => {
                                 doloreque laudantum.</p>
                         </div>
                         <div class="col-md-6 pl-lg-4">
+                        <h2 class="section-title">It is like getting a superhuman for your company becauzm,cvmcse the communication is only with one person.n</h2>
                             <ul class="list-unstyled process-steps">
                                 <li class="bg-white d-inline-flex shadow rounded-xs p-4">
                                     <div class="mr-3">
@@ -153,79 +214,32 @@ const Home = ({ }) => {
                     </div>
                 </div>
                 <img src={curveShape_2} class="img-fluid process-bg-shape" alt="bg-shape" />
-            </section>
+            </section> */}
 
             <section>
-                <div class="bg-gradient-primary section bg-triangles">
-                    <div class="container">
+                <div className="">
+                    <div class="container my-3">
                         <div class="row">
-                            <div class="col-12 text-center mb-5">
-                                <p class="subtitle text-white">testimonial</p>
-                                <h2 class="section-title text-white">What Our Clients Says?</h2>
+                            <div class="col-12 text-center">
+                                <h2 class="section-title text-dark">JOBS</h2>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="translate-top">
-                    <div class="container">
-                        <div class="row testimonial-slider px-5">
-                            <div class="col-lg-4">
-                                <div class="card border-0 text-center shadow rounded-sm mb-5">
-                                    <img src={client_1} class="rounded-circle card-img-top card-img-sm mx-auto mb-4 mt-5" alt="client-img" />
-                                    <div class="card-body pb-4">
-                                        <p class="text-dark bg-quote mb-4">Lorem ipsum dolor amet constur adipi
-                                            sicing elit sed eiusmtempor incid dolore magna aliqu. enim minim veniam quis nostrud
-                                            exercittion.ullamco laboris nisi ut aliquip excepteur.</p>
-                                        <h4 class="text-dark">Liam Hughes</h4>
-                                        <p class="h6">Happy client</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="card border-0 text-center shadow rounded-sm mb-5">
-                                    <img src={client_1} class="rounded-circle card-img-top card-img-sm mx-auto mb-4 mt-5"
-                                        alt="client-img" />
-                                    <div class="card-body pb-4">
-                                        <p class="text-dark bg-quote mb-4">Lorem ipsum dolor amet constur adipi
-                                            sicing elit sed eiusmtempor incid dolore magna aliqu. enim minim veniam quis nostrud
-                                            exercittion.ullamco laboris nisi ut aliquip excepteur.</p>
-                                        <h4 class="text-dark">Liam Hughes</h4>
-                                        <p class="h6">Happy client</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="card border-0 text-center shadow rounded-sm mb-5">
-                                    <img src={client_1} class="rounded-circle card-img-top card-img-sm mx-auto mb-4 mt-5"
-                                        alt="client-img" />
-                                    <div class="card-body pb-4">
-                                        <p class="text-dark bg-quote mb-4">Lorem ipsum dolor amet constur adipi
-                                            sicing elit sed eiusmtempor incid dolore magna aliqu. enim minim veniam quis nostrud
-                                            exercittion.ullamco laboris nisi ut aliquip excepteur.</p>
-                                        <h4 class="text-dark">Liam Hughes</h4>
-                                        <p class="h6">Happy client</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="card border-0 text-center shadow rounded-sm mb-5">
-                                    <img src={client_1} class="rounded-circle card-img-top card-img-sm mx-auto mb-4 mt-5"
-                                        alt="client-img" />
-                                    <div class="card-body pb-4">
-                                        <p class="text-dark bg-quote mb-4">Lorem ipsum dolor amet constur adipi
-                                            sicing elit sed eiusmtempor incid dolore magna aliqu. enim minim veniam quis nostrud
-                                            exercittion.ullamco laboris nisi ut aliquip excepteur.</p>
-                                        <h4 class="text-dark">Liam Hughes</h4>
-                                        <p class="h6">Happy client</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="container my-3">
+                        <p className="text-center">
+                            Our company assign teams to companies for any remote work varying from software to sales. Each team have a dedicated team manager who contact with the company.
+                        </p>
+                        <p className="text-center">
+                            We also hire teams on orders. This whole process saves companies important time and effort hiring, bringing them together and managing people.
+                        </p>
+                        <p className="text-center">
+                            Our company structure allows us to work and hire people from anywhere in the world which allows us to bring top- tier services to you.
+                        </p>
                     </div>
                 </div>
             </section>
 
-            <section class="section pt-0">
+            {/* <section class="section pt-0">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-6 pr-lg-5 mb-4 mb-md-0">
@@ -262,55 +276,39 @@ const Home = ({ }) => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section class="section bg-cover" data-background="images/background/testimonial-3.jpg">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 text-center">
-                            <h4 class="subtitle">Pricing table</h4>
-                            <h2 class="section-title">choose your plan</h2>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 mb-lg-0 mb-4">
-                            <div class="pricing-table position-relative text-center px-4 py-5 rounded-lg shadow transition bg-white">
-                                <span class="badge badge-pill badge-light font-weight-medium mb-3 py-2 px-4 text-primary">Basic</span>
-                                <div class="h1 text-dark">$49<span class="paragraph text-lowercase"> / mo</span></div>
-                                <h5 class="mb-4 font-weight-normal text-color">Best for small individuals</h5>
-                                <hr />
-                                <ul class="list-unstyled my-4">
-                                    <li class="my-3">Express Service</li>
-                                    <li class="my-3">Customs Clearance</li>
-                                    <li class="my-3">Time-Critical Services</li>
-                                </ul>
-                                <a href="#" class="btn btn-outline-primary">select plan</a>
+                        <div className="col-3 px-3">
+                            <div class="card my-3" style={{height: "125px"}}>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Fill Form</h5>
+                                    <button type="button" class="btn btn-outline-primary"><span className="">Form</span></button>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-6 mb-lg-0 mb-4">
-                            <div class="pricing-table position-relative text-center px-4 py-5 rounded-lg shadow transition bg-white">
-                                <span class="badge badge-pill badge-light font-weight-medium mb-3 py-2 px-4 text-primary">Professional</span>
-                                <div class="h1 text-dark">$79<span class="paragraph text-lowercase"> / mo</span></div>
-                                <h5 class="mb-4 font-weight-normal text-color">Best for standard individuals</h5>
-                                <hr />
-                                <ul class="list-unstyled my-4">
-                                    <li class="my-3">Express Service</li>
-                                    <li class="my-3">Customs Clearance</li>
-                                    <li class="my-3">Time-Critical Services</li>
-                                </ul>
-                                <a href="#" class="btn btn-outline-primary">select plan</a>
+                        <div className="col-3 px-3">
+                            <div class="card my-3" style={{height: "125px"}}>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Hire <br /> a Super Human !</h5>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-6 mb-lg-0 mb-4">
-                            <div class="pricing-table position-relative text-center px-4 py-5 rounded-lg shadow transition bg-white">
-                                <span class="badge badge-pill badge-light font-weight-medium mb-3 py-2 px-4 text-primary">Business</span>
-                                <div class="h1 text-dark">$129<span class="paragraph text-lowercase"> / mo</span></div>
-                                <h5 class="mb-4 font-weight-normal text-color">Best for large individuals</h5>
-                                <hr />
-                                <ul class="list-unstyled my-4">
-                                    <li class="my-3">Express Service</li>
-                                    <li class="my-3">Customs Clearance</li>
-                                    <li class="my-3">Time-Critical Services</li>
-                                </ul>
-                                <a href="#" class="btn btn-outline-primary">select plan</a>
+                        <div className="col-3 px-3">
+                            <div class="card my-3" style={{height: "125px"}}>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Get <br /> The Best Team !</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-3 px-3">
+                            <div class="card my-3" style={{height: "125px"}}>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Book a Call</h5>
+                                    <button type="button" class="btn btn-outline-primary"><span className="">Book call</span></button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -318,87 +316,34 @@ const Home = ({ }) => {
             </section>
 
 
-            <section class="section">
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <p class="subtitle">latest news</p>
-                            <h2 class="section-title">Learn Form Agico</h2>
-                        </div>
-                        <div class="col-12">
-                            <div class="blog-slider">
-                                <div class="px-3 mb-5">
-                                    <div class="card border-0 shadow rounded-xs">
-                                        <img src={blogPost_1} class="img-fluid card-img-top" alt="post-thumb" />
-                                        <div class="card-body">
-                                            <p class="card-date">Dec 30, 2018</p>
-                                            <h5><a class="text-dark" href="blog-details.html">Cupidat non proident sunt officia deserunt mollit
-                                                anim.</a></h5>
-                                        </div>
+            <section class="">
+                <div class="my-4">
+                    <div className="container">
+                        <div class="row">
+                            <div class="col-9 d-flex justify-content-start">
+                                <div className="row">
+                                    <div className="col-12">
+                                        <h2 class="section-title text-dark">Call To Action</h2>
+                                    </div>
+                                    <div className="col-12">
+                                        <p className="d-flex justify-content-start justify-text">
+                                            Our company assign teams to companies for any remote work varying from software to sales. Each team have a dedicated team <br />
+                                            manager who contact with the company. We also hire teams on orders. This whole process saves companies important time and effort <br />
+                                            hiring, bringing them together and managing people. Our company structure allows us to work and hire people from anywhere in the <br />
+                                            world which allows us to bring top- tier services to you.
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="px-3 mb-5">
-                                    <div class="card border-0 shadow rounded-xs">
-                                        <img src={blogPost_2} class="img-fluid card-img-top" alt="post-thumb" />
-                                        <div class="card-body">
-                                            <p class="card-date">Dec 30, 2018</p>
-                                            <h5><a class="text-dark" href="blog-details.html">Cupidat non proident sunt officia deserunt mollit
-                                                anim.</a></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="px-3 mb-5">
-                                    <div class="card border-0 shadow rounded-xs">
-                                        <img src={blogPost_3} class="img-fluid card-img-top" alt="post-thumb" />
-                                        <div class="card-body">
-                                            <p class="card-date">Dec 30, 2018</p>
-                                            <h5><a class="text-dark" href="blog-details.html">Cupidat non proident sunt officia deserunt mollit
-                                                anim.</a></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="px-3 mb-5">
-                                    <div class="card border-0 shadow rounded-xs">
-                                        <img src={blogPost_1} class="img-fluid card-img-top" alt="post-thumb" />
-                                        <div class="card-body">
-                                            <p class="card-date">Dec 30, 2018</p>
-                                            <h5><a class="text-dark" href="blog-details.html">Cupidat non proident sunt officia deserunt mollit
-                                                anim.</a></h5>
-                                        </div>
-                                    </div>
-                                </div>
+                            </div>
+                            <div class="col-3 d-flex justify-content-center">
+                                <button type="button" class="btn btn-outline-primary my-5"><span className="">Book Call</span></button>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </section>
 
-            <section class="section section-lg-bottom bg-light">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <p class="subtitle">our clients</p>
-                            <h2 class="section-title">Trusted Over 2245+ Companies</h2>
-                        </div>
-                        <div class="col-12">
-                            <ul class="list-inline d-flex justify-content-between align-items-center">
-                                <li class="list-inline-item"><a href="#"><img class="img-fluid p-2" src={clientLogo_1}
-                                    alt="partner-1" /></a></li>
-                                <li class="list-inline-item"><a href="#"><img class="img-fluid p-2" src={clientLogo_2}
-                                    alt="partner-2" /></a></li>
-                                <li class="list-inline-item"><a href="#"><img class="img-fluid p-2" src={clientLogo_3}
-                                    alt="partner-3" /></a></li>
-                                <li class="list-inline-item"><a href="#"><img class="img-fluid p-2" src={clientLogo_4}
-                                    alt="partner-4" /></a></li>
-                                <li class="list-inline-item"><a href="#"><img class="img-fluid p-2" src={clientLogo_5}
-                                    alt="partner-5" /></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            
 
             <section class="subscription bg-white">
                 <div class="container">
