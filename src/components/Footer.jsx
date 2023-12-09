@@ -8,7 +8,9 @@ const Footer = ({}) => {
   
   return (
     <>   
-      <p>HEllo</p>
+      <div className="bg-dark">
+        <p className="text-white">Footer</p>
+      </div>
     </>
   );
 };
