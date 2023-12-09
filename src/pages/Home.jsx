@@ -31,10 +31,9 @@ const Home = ({ }) => {
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-6 text-center text-lg-left mb-4 mb-lg-0">
-                            <h1 class="text-dark position-relative">Build Your Business Together<span class="watermark">Build</span></h1>
-                            <p class="mb-4 text-dark">Cupidatat non proident sunt culpa qui officia deserunt mollit <br /> anim idest
-                                laborum sed ut perspiciatis.</p>
-                            <ul class="list-inline">
+                            <h1 class="text-dark position-relative">A Revolution in Jobs <br /> "Hire Superhumans"</h1>
+                            <p class="mb-4 text-dark">Hire Teams for any remote jobs varying from Ai to Sales for jobs or projects. Collaborated with 50+ businesses and have 100+ teams</p>
+                            {/* <ul class="list-inline">
                                 <li class="list-inline-item mx-1 my-2">
                                     <a href="#" class="btn btn-primary">
                                         <img src={GooglePlayWhite} class="img-fluid mr-2" alt="play-store" /> Google Play</a>
@@ -43,7 +42,7 @@ const Home = ({ }) => {
                                     <a href="#" class="btn btn-outline-primary"><i class="fa fa-apple text-secondary mr-3 transition"></i>App
                                         Store</a>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </div>
                         <div class="col-lg-6 position-relative">
                             <img src={banner2} class="img-fluid w-100" alt="banner-image"/>
@@ -52,56 +51,40 @@ const Home = ({ }) => {
                     </div>
                 </div>
 
-                <img src={banner} class="img-fluid bg-shape-1" alt="bg-shape" />
-                <img src={dot2} class="img-fluid bg-shape-2" alt="bg-shape" />
+                {/* <img src={banner} class="img-fluid bg-shape-1" alt="bg-shape" />
+                <img src={dot2} class="img-fluid bg-shape-2" alt="bg-shape" /> */}
             </section>
 
             <section class="position-relative">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center">
-                            <p class="subtitle">Features</p>
-                            <h2 class="section-title">exclusive features</h2>
+                            <h2 class="section-title">WHY CHOOSE US - COLLABORATED WITH 50+COMPANIES AND HAVE 100+ TEAMS</h2>
+                            <p class="subtitle">WHAT WE DO?</p>
                         </div>
-                        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div className="col-md-6">
                             <div class="text-center shadow card py-3 border-0 rounded-sm">
                                 <div class="card-body">
-                                    <i class="fa fa-desktop icon-lg icon-bg-square mb-5 icon-primary"></i>
-                                    <h4 class="mb-3">Exclusive Design</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore
-                                        magna.</p>
+                                    <p className="d-flex">Our company assign teams to companies for any remote work varying from software to sales. Each team have a dedicated team manager who contact with the company. We also hire teams on orders. This whole process saves companies important time and effort hiring, bringing them together and managing people. Our company structure allows us to work and hire people from anywhere in the world which allows us to bring top- tier services to you.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div className="col-md-6">
                             <div class="text-center shadow card py-3 border-0 rounded-sm">
                                 <div class="card-body">
-                                    <i class="fa fa-gears icon-lg icon-bg-square mb-5 icon-primary"></i>
-                                    <h4 class="mb-3">Easy Customize</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore
-                                        magna.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                            <div class="text-center shadow card py-3 border-0 rounded-sm">
-                                <div class="card-body">
-                                    <i class="fa fa-shield icon-lg icon-bg-square mb-5 icon-primary"></i>
-                                    <h4 class="mb-3">Extreme Security</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore
-                                        magna.</p>
+                                    <p className="d-flex">It is like getting a superhuman for your company because the team manager is like a employee who can do work of hundreds of people. We have collaborated with 50+ businesses and companies and have 100+ teams</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <img src={curveShape_2} class="img-fluid feature-bg-shape" alt="background-shape"/>
+                {/* <img src={curveShape_2} class="img-fluid feature-bg-shape" alt="background-shape"/> */}
             </section>
 
-            <section class="section pb-0">
+            <section class="section pb-0 my-4">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 pr-lg-4 mb-4 mb-md-0">
+                        {/* <div class="col-md-6 pr-lg-4 mb-4 mb-md-0">
                             <div class="position-relative">
                                 <img src={About_3} class="img-fluid rounded-sm" alt="video-bg" />
                                 <div class="floating-video overlay rounded-sm">
@@ -111,10 +94,9 @@ const Home = ({ }) => {
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div class="col-md-6 align-self-center pl-lg-4">
-                            <p class="subtitle">About Agico</p>
-                            <h2 class="section-title">Eausmod tempor magna nostrud exercitation</h2>
+                            <h2 class="section-title">It is like getting a superhuman for your company becauzm,cvmcse the communication is only with one person.n</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipicing elit sed do usmod tempor
                                 incididunt.enim ad minim veniam, quis nostrud exer citation ulla mco laboris nisi ut aliquip commodo.</p>
                             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accu santium
