@@ -1,3 +1,4 @@
+import React from 'react';
 import whyUs from "../images/why-us.png"
 import skills from "../images/skills.png"
 import google from "../images/Google.png"
@@ -11,20 +12,31 @@ import client_4 from "../images/client-4.png"
 import client_5 from "../images/client-5.png"
 import client_6 from "../images/client-6.png"
 import mainImage from "../images/mainImage.png"
+import { useSpring, animated } from 'react-spring';
 
 const Home = ({ }) => {
-
+    const fadeInProps = useSpring({
+        opacity: 1,
+        transform: 'scale(1)',
+        from: { opacity: 0, transform: 'scale(0.5)' },
+        config: { duration: 2000 },
+      });
+      
     return (
         <>
             <section class="hero-area hero-area-lg position-relative my-5">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-6 text-center text-lg-left mb-4 mb-lg-0 my-3 animated-content fade show">
-                            <h1 class="text-dark position-relative">A Revolution in Jobs <br /> "Hire Superhumans"</h1>
-                            <p class="mb-4 text-dark">Hire Teams for any remote jobs varying from Ai to Sales for jobs or projects. Collaborated with 50+ businesses and have 100+ teams</p>
+                            <animated.h1 style={fadeInProps} className="text-dark position-relative">
+                                A Revolution in Jobs <br /> "Hire Superhumans"
+                            </animated.h1>
+                            <animated.p style={fadeInProps} className="mb-4 text-dark">
+                                Hire Teams for any remote jobs varying from Ai to Sales for jobs or projects. Collaborated with 50+ businesses and have 100+ teams
+                            </animated.p>
                         </div>
                         <div class="col-lg-6 position-relative my-3 animated-content">
-                            <img src={mainImage} class="img-fluid w-100 fade show" alt="banner-image" />
+                            <animated.img style={fadeInProps} src={mainImage} className="img-fluid w-100 fade show" alt="banner-image" />
                         </div>
                     </div>
                 </div>
@@ -103,7 +115,7 @@ const Home = ({ }) => {
                     <div class="row">
                         <div class="col-md-6 pr-lg-4 mb-4 mb-md-0">
                             <div class="position-relative">
-                                <img src={whyUs} class="img-fluid rounded-sm" alt="video-bg" />
+                                <animated.img style={fadeInProps} src={whyUs} class="img-fluid rounded-sm" alt="video-bg" />
                             </div>
                         </div>
                         <div class="col-md-6 pl-lg-4">
@@ -145,7 +157,7 @@ const Home = ({ }) => {
                     <div class="row">
                         <div class="col-md-6 pr-lg-4 mb-4 mb-md-0">
                             <div class="position-relative">
-                                <img src={skills} class="img-fluid rounded-sm" alt="video-bg" />
+                                <animated.img style={fadeInProps} src={skills} class="img-fluid rounded-sm" alt="video-bg" />
                             </div>
                         </div>
                         <div class="col-md-6 pl-lg-4">

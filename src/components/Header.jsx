@@ -8,7 +8,7 @@ const Header = ({}) => {
   
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-primary opacity-75">
+      <nav class="navbar navbar-expand-lg bg-primary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Elite Teams - Hire Teams</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
