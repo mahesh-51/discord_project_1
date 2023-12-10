@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle'
 import logo from './logo.svg';
+import "./App.css"
 import { RouterProvider } from "react-router-dom";
 import React from "react";
 import AppContext from "../src/components/AppContext";

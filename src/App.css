@@ -98,7 +98,7 @@ h6,
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
-  padding: 14px 45px;
+  padding: 10px 25px;
   border-radius: 45px;
   font-weight: 500;
   border: 1px solid;
@@ -140,7 +140,7 @@ h6,
   left: 0;
   width: 102%;
   height: 100%;
-  background: linear-gradient(45deg, #00a8f4 0%, #02d1a1 100%);
+  background: linear-gradient(45deg, #00a8f4 0%, rgb(2, 123, 209) 100%);
   z-index: -1;
   transition: ease 0.3s;
 }
@@ -163,17 +163,17 @@ h6,
 }
 .btn-light:hover {
   color: #fff;
-  background: linear-gradient(45deg, #00a8f4 0%, #02d1a1 100%);
+  background: linear-gradient(45deg, #00a8f4 0%, rgb(2, 123, 209) 100%);
 }
 
 .btn-outline-primary {
-  color: #00e0d8;
-  border: 2px solid #00e0d8;
+  color: rgb(2, 123, 209);
+  border: 2px solid rgb(2, 123, 209);
 }
 .btn-outline-primary:hover {
   color: #fff !important;
   background: none;
-  border: 2px solid #00e0d8;
+  border: 2px solid rgb(2, 123, 209);
 }
 .btn-outline-primary:hover i {
   color: #fff !important;
@@ -191,7 +191,7 @@ h6,
   left: -102%;
   width: 102%;
   height: 100%;
-  background: linear-gradient(45deg, #00a8f4 0%, #02d1a1 100%);
+  background: linear-gradient(45deg, #00a8f4 0%, rgb(2, 123, 209) 100%);
   z-index: -1;
   transition: ease 0.3s;
 }
@@ -406,8 +406,8 @@ a.text-light:hover {
 }
 
 .section {
-  padding-top: 140px;
-  padding-bottom: 140px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 @media (max-width: 991px) {
   .section {
@@ -432,6 +432,7 @@ a.text-light:hover {
   padding-bottom: 70px;
 }
 .section-title {
+  margin-top: 25px;
   margin-bottom: 38px;
 }
 
@@ -1001,14 +1002,14 @@ textarea.form-control {
 .hero-area-lg {
   overflow: hidden;
 }
-.hero-area-lg .row {
+/* .hero-area-lg .row {
   margin-right: -25%;
-}
-@media (max-width: 991px) {
+} */
+/* @media (max-width: 991px) {
   .hero-area-lg .row {
     margin-right: -15px;
   }
-}
+} */
 
 .watermark {
   position: absolute;
@@ -1723,7 +1724,7 @@ form textarea {
   }
 }
 
-@keyframes fadeIn {
+/* @keyframes fadeIn {
   from {
       opacity: 0;
       transform: translateY(-20px);
@@ -1732,13 +1733,24 @@ form textarea {
       opacity: 1;
       transform: translateY(0);
   }
-}
+} */
 
-.hero-area-lg .animated-content {
+/* .hero-area-lg .animated-content {
   animation: fadeIn 1s ease-out;
 }
+} */
 
 .card:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease-in-out;
+}
+
+/* Add this to your CSS file or in a style tag in your component */
+
+.hover-scale {
+  transition: transform 0.3s ease-in-out; /* Adjust the duration and timing function as needed */
+
+  &:hover {
+    transform: scale(1.2); /* Adjust the scale factor for the desired zoom effect */
+  }
 }

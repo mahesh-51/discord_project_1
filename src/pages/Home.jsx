@@ -24,10 +24,10 @@ const Home = ({ }) => {
       
     return (
         <>
-            <section class="hero-area hero-area-lg position-relative my-5">
+            <section class="position-relative my-3">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-lg-6 text-center text-lg-left mb-4 mb-lg-0 my-3 animated-content fade show">
+                        <div class="col-lg-6 text-center text-lg-left mb-4 mb-lg-0">
                             <animated.h1 style={fadeInProps} className="text-dark position-relative">
                                 A Revolution in Jobs <br /> "Hire Superhumans"
                             </animated.h1>
@@ -35,49 +35,49 @@ const Home = ({ }) => {
                                 Hire Teams for any remote jobs varying from Ai to Sales for jobs or projects. Collaborated with 50+ businesses and have 100+ teams
                             </animated.p>
                         </div>
-                        <div class="col-lg-6 position-relative my-3 animated-content">
-                            <animated.img style={fadeInProps} src={mainImage} className="img-fluid w-100 fade show" alt="banner-image" />
+                        <div class="col-lg-6 position-relative">
+                            <animated.img style={fadeInProps} src={mainImage} className="img-fluid w-100 hover-scale" alt="banner-image" />
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="section section-lg-bottom bg-light my-4">
-                <div class="container my-3">
+            <section class="section bg-light">
+                <div class="container">
                     <div class="row">
                         <div className="col-md-2 text-center">
-                            <div className="card shadow border-0 my-2">
-                                <a href="#"><img class="img-fluid p-2" style={{ height: "65px" }} src={client_1}
+                            <div className="card shadow border-0">
+                                <a href="#"><img class="img-fluid p-2 hover-scale" style={{ height: "65px" }} src={client_1}
                                     alt="partner-1" /></a>
                             </div>
                         </div>
                         <div className="col-md-2 text-center">
-                            <div className="card shadow border-0 my-2">
-                                <a href="#"><img class="img-fluid p-2" style={{ height: "65px" }} src={client_2}
+                            <div className="card shadow border-0">
+                                <a href="#"><img class="img-fluid p-2 hover-scale" style={{ height: "65px" }} src={client_2}
                                     alt="partner-2" /></a>
                             </div>
                         </div>
                         <div className="col-md-2 text-center">
-                            <div className="card shadow border-0 my-2">
-                                <a href="#"><img class="img-fluid p-2" style={{ height: "65px" }} src={client_3}
+                            <div className="card shadow border-0">
+                                <a href="#"><img class="img-fluid p-2 hover-scale" style={{ height: "65px" }} src={client_3}
                                     alt="partner-3" /></a>
                             </div>
                         </div>
                         <div className="col-md-2 text-center">
-                            <div className="card shadow border-0 my-2">
-                                <a href="#"><img class="img-fluid p-2" style={{ height: "65px" }} src={client_4}
+                            <div className="card shadow border-0">
+                                <a href="#"><img class="img-fluid p-2 hover-scale" style={{ height: "65px" }} src={client_4}
                                     alt="partner-4" /></a>
                             </div>
                         </div>
                         <div className="col-md-2 text-center">
-                            <div className="card shadow border-0 my-2">
-                                <a href="#"><img class="img-fluid p-2" style={{ height: "65px" }} src={client_5}
+                            <div className="card shadow border-0">
+                                <a href="#"><img class="img-fluid p-2 hover-scale" style={{ height: "65px" }} src={client_5}
                                     alt="partner-5" /></a>
                             </div>
                         </div>
                         <div className="col-md-2 text-center">
-                            <div className="card shadow border-0 my-2">
-                                <a href="#"><img class="img-fluid p-2" style={{ height: "65px" }} src={client_6}
+                            <div className="card shadow border-0">
+                                <a href="#"><img class="img-fluid p-2 hover-scale" style={{ height: "65px" }} src={client_6}
                                     alt="partner-4" /></a>
                             </div>
                         </div>
@@ -85,24 +85,24 @@ const Home = ({ }) => {
                 </div>
             </section>
 
-            <section class="position-relative">
+            <section class="position-relative MY-3">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center">
                             <h2 class="section-title">WHY CHOOSE US - COLLABORATED WITH 50+COMPANIES AND HAVE 100+ TEAMS</h2>
-                            <p class="subtitle">WHAT WE DO?</p>
+                            <p class="subtitle text-dark">WHAT WE DO?</p>
                         </div>
                         <div className="col-md-6">
                             <div class="text-center shadow card py-3 border-0 rounded-sm">
                                 <div class="card-body" style={{ height: "180px" }}>
-                                    <p className="d-flex">Our company assign teams to companies for any remote work varying from software to sales. Each team have a dedicated team manager who contact with the company. We also hire teams on orders. This whole process saves companies important time and effort hiring, bringing them together and managing people. Our company structure allows us to work and hire people from anywhere in the world which allows us to bring top- tier services to you.</p>
+                                    <p className="d-flex text-dark">Our company assign teams to companies for any remote work varying from software to sales. Each team have a dedicated team manager who contact with the company. We also hire teams on orders. This whole process saves companies important time and effort hiring, bringing them together and managing people. Our company structure allows us to work and hire people from anywhere in the world which allows us to bring top- tier services to you.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6">
                             <div class="text-center shadow card py-3 border-0 rounded-sm">
                                 <div class="card-body" style={{ height: "180px" }}>
-                                    <p className="d-flex">It is like getting a superhuman for your company because the team manager is like a employee who can do work of hundreds of people. We have collaborated with 50+ businesses and companies and have 100+ teams</p>
+                                    <p className="d-flex text-dark">It is like getting a superhuman for your company because the team manager is like a employee who can do work of hundreds of people. We have collaborated with 50+ businesses and companies and have 100+ teams</p>
                                 </div>
                             </div>
                         </div>
@@ -204,16 +204,15 @@ const Home = ({ }) => {
                 </div>
             </section>
 
-            <section className="section section-lg-bottom bg-light my-">
-                <div className="">
-                    <div class="container my-3">
+            <section className="section bg-light">
+                    <div class="container">
                         <div class="row">
                             <div class="col-md-12 text-center">
                                 <h2 class="section-title text-dark">JOBS</h2>
                             </div>
                         </div>
                     </div>
-                    <div class="container my-3">
+                    <div class="container">
                         <p className="text-center">
                             Our company assign teams to companies for any remote work varying from software to sales. Each team have a dedicated team manager who contact with the company.
                         </p>
@@ -224,10 +223,9 @@ const Home = ({ }) => {
                             Our company structure allows us to work and hire people from anywhere in the world which allows us to bring top- tier services to you.
                         </p>
                     </div>
-                </div>
             </section>
 
-            <section class="section bg-cover" data-background="images/background/testimonial-3.jpg">
+            <section class="my-2" data-background="images/background/testimonial-3.jpg">
                 <div class="container">
                     <div class="row">
                         <div className="col-md-3 px-3">
@@ -292,18 +290,16 @@ const Home = ({ }) => {
                 </div>
             </section>
 
-            <section className="section section-lg-bottom bg-light my-"> 
-                <div className="">
-                    <div class="container my-3">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <h2 class="section-title text-dark">PORTFOLIO</h2>
-                            </div>
+            <section className="bg-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center mt-3">
+                            <h2 class="text-dark">PORTFOLIO</h2>
                         </div>
-                        <div className="row text-center">
-                            <div class="col-md-12 my-md-2 my-2">
-                                <button type="submit" class="btn btn-primary btn-lg border-0 w-100">Previous Companies</button>
-                            </div>
+                    </div>
+                    <div className="row text-center">
+                        <div class="col-md-12 mb-3">
+                            <button type="submit" class="btn btn-primary border-0">Previous Companies</button>
                         </div>
                     </div>
                 </div>
@@ -316,7 +312,7 @@ const Home = ({ }) => {
                             <div class="card shadow border-0 my-3" style={{ height: "140px" }}>
                                 <div class="card-body text-center">
                                     <div class="position-relative">
-                                        <img src={amazon} style={{ height: "115px" }} class="img-fluid rounded-sm" alt="video-bg" />
+                                        <img src={amazon} style={{ height: "115px" }} class="img-fluid rounded-sm hover-scale" alt="video-bg" />
                                     </div>
                                 </div>
                             </div>
@@ -325,7 +321,7 @@ const Home = ({ }) => {
                             <div class="card shadow border-0 my-3" style={{ height: "140px" }}>
                                 <div class="card-body text-center">
                                     <div class="position-relative">
-                                        <img src={google} style={{ height: "115px" }} class="img-fluid rounded-sm" alt="video-bg" />
+                                        <img src={google} style={{ height: "115px" }} class="img-fluid rounded-sm hover-scale" alt="video-bg" />
                                     </div>
                                 </div>
                             </div>
@@ -334,7 +330,7 @@ const Home = ({ }) => {
                             <div class="card shadow border-0 my-3" style={{ height: "140px" }}>
                                 <div class="card-body text-center">
                                     <div class="position-relative">
-                                        <img src={meta} style={{ height: "115px" }} class="img-fluid rounded-sm" alt="video-bg" />
+                                        <img src={meta} style={{ height: "115px" }} class="img-fluid rounded-sm hover-scale" alt="video-bg" />
                                     </div>
                                 </div>
                             </div>
@@ -343,7 +339,7 @@ const Home = ({ }) => {
                             <div class="card shadow border-0 my-3" style={{ height: "140px" }}>
                                 <div class="card-body text-center">
                                     <div class="position-relative">
-                                        <img src={microsoft} style={{ height: "115px" }} class="img-fluid rounded-sm" alt="video-bg" />
+                                        <img src={microsoft} style={{ height: "115px" }} class="img-fluid rounded-sm hover-scale" alt="video-bg" />
                                     </div>
                                 </div>
                             </div>
@@ -447,7 +443,7 @@ const Home = ({ }) => {
                         </div>
                         <div class="row text-center">
                             <div className="col-md-6 px-3">
-                                <div class="card shadow border-0 my-3" style={{ height: "125px" }}>
+                                <div class="card shadow border-0 my-3" style={{ height: "140px" }}>
                                     <div class="card-body">
                                         <h5 class="card-title text-center text-primary"><h2>Book Call</h2></h5>
                                         <button type="button" class="btn btn-outline-primary"><span className="">Book Call</span></button>
@@ -455,7 +451,7 @@ const Home = ({ }) => {
                                 </div>
                             </div>
                             <div className="col-md-6 px-3">
-                                <div class="card shadow border-0 my-3" style={{ height: "125px" }}>
+                                <div class="card shadow border-0 my-3" style={{ height: "140px" }}>
                                     <div class="card-body">
                                         <h5 class="card-title text-center text-primary"><h2>Fill A Form</h2></h5>
                                         <button type="button" class="btn btn-outline-primary"><span className="">Form</span></button>

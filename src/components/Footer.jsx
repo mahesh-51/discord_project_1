@@ -12,7 +12,7 @@ const Footer = ({}) => {
         <section class="section border-bottom border-color">
           <div class="container">
             <div class="row justify-content-between">
-              <div class="col-md-2 mb-4 mb-md-0 my-4">
+              <div class="col-md-3 mb-4 mb-md-0 my-4">
                 <h2 className="text-white">ELITE TEAMS</h2>
                   <p class="text-light mb-4"><a class="text-light" href="mailto:mail@eliteteams.online">email - mail@eliteteams.online</a></p>
               </div>
@@ -46,12 +46,12 @@ const Footer = ({}) => {
                   <li class="mb-3 text-light"><a href="#" class="text-light">Much more  </a></li>
                 </ul>
               </div>
-              <div class="col-lg-3 col-md-4 col-sm-6">
+              {/* <div class="col-lg-3 col-md-4 col-sm-6">
                 <h4 class="text-white mb-4">Contact Info</h4>
                 <ul class="list-unstyled">
                   <li class="mb-3"><a class="text-light" href="mailto:mail@eliteteams.online">email - mail@eliteteams.online</a></li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
@@ -65,6 +65,7 @@ const Footer = ({}) => {
                     var CurrentYear = new Date().getFullYear()
                     document.write(CurrentYear)
                   </script>
+                  <span>2023</span>
                 </p>
               </div>
               <div class="col-md-6 text-md-right text-center">
