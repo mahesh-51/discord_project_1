@@ -1,25 +1,3 @@
-import Navbar from "react-bootstrap/Navbar";
-import Button from "react-bootstrap/Button";
-import Row from "react-bootstrap/esm/Row";
-import Col from "react-bootstrap/esm/Col";
-import GooglePlayWhite from "../images/icon/google-play-white.png";
-import banner2 from "../images/banner/banner-2.png"
-import dot1 from "../images/dot/dot-1.png"
-import banner from "../images/shape/banner.png"
-import dot2 from "../images/dot/dot-2.png"
-import About_3 from "../images/about/about-3.jpg"
-import About_4 from "../images/about/about-4.jpg"
-import curveShape_2 from "../images/shape/curve-shape-2.png"
-// import client_1 from "../images/testimonial/client-1.jpg"
-import integration_1 from "../images/integration/integration-1.png"
-import blogPost_1 from "../images/blog/blog-post-1.jpg"
-import blogPost_2 from "../images/blog/blog-post-2.jpg"
-import blogPost_3 from "../images/blog/blog-post-3.jpg"
-import clientLogo_1 from "../images/partner/client-logo-1.png"
-import clientLogo_2 from "../images/partner/client-logo-2.png"
-import clientLogo_3 from "../images/partner/client-logo-3.png"
-import clientLogo_4 from "../images/partner/client-logo-4.png"
-import clientLogo_5 from "../images/partner/client-logo-5.png"
 import whyUs from "../images/why-us.png"
 import skills from "../images/skills.png"
 import google from "../images/Google.png"
@@ -41,12 +19,12 @@ const Home = ({ }) => {
             <section class="hero-area hero-area-lg position-relative my-5">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-lg-6 text-center text-lg-left mb-4 mb-lg-0">
+                        <div class="col-lg-6 text-center text-lg-left mb-4 mb-lg-0 my-3 animated-content fade show">
                             <h1 class="text-dark position-relative">A Revolution in Jobs <br /> "Hire Superhumans"</h1>
                             <p class="mb-4 text-dark">Hire Teams for any remote jobs varying from Ai to Sales for jobs or projects. Collaborated with 50+ businesses and have 100+ teams</p>
                         </div>
-                        <div class="col-lg-6 position-relative">
-                            <img src={mainImage} class="img-fluid w-100" alt="banner-image" />
+                        <div class="col-lg-6 position-relative my-3 animated-content">
+                            <img src={mainImage} class="img-fluid w-100 fade show" alt="banner-image" />
                         </div>
                     </div>
                 </div>
@@ -55,29 +33,41 @@ const Home = ({ }) => {
             <section class="section section-lg-bottom bg-light my-4">
                 <div class="container my-3">
                     <div class="row">
-                        <div className="col-2">
-                            <a href="#"><img class="img-fluid p-2" src={client_1}
-                                alt="partner-1" /></a>
+                        <div className="col-md-2 text-center">
+                            <div className="card shadow border-0 my-2">
+                                <a href="#"><img class="img-fluid p-2" style={{ height: "65px" }} src={client_1}
+                                    alt="partner-1" /></a>
+                            </div>
                         </div>
-                        <div className="col-2">
-                            <a href="#"><img class="img-fluid p-2" src={client_2}
-                                alt="partner-2" /></a>
+                        <div className="col-md-2 text-center">
+                            <div className="card shadow border-0 my-2">
+                                <a href="#"><img class="img-fluid p-2" style={{ height: "65px" }} src={client_2}
+                                    alt="partner-2" /></a>
+                            </div>
                         </div>
-                        <div className="col-2">
-                            <a href="#"><img class="img-fluid p-2"src={client_3}
-                                alt="partner-3" /></a>
+                        <div className="col-md-2 text-center">
+                            <div className="card shadow border-0 my-2">
+                                <a href="#"><img class="img-fluid p-2" style={{ height: "65px" }} src={client_3}
+                                    alt="partner-3" /></a>
+                            </div>
                         </div>
-                        <div className="col-2">
-                            <a href="#"><img class="img-fluid p-2" src={client_4}
-                                alt="partner-4" /></a>
+                        <div className="col-md-2 text-center">
+                            <div className="card shadow border-0 my-2">
+                                <a href="#"><img class="img-fluid p-2" style={{ height: "65px" }} src={client_4}
+                                    alt="partner-4" /></a>
+                            </div>
                         </div>
-                        <div className="col-2">
-                            <a href="#"><img class="img-fluid p-2" src={client_5}
-                                alt="partner-5" /></a>
+                        <div className="col-md-2 text-center">
+                            <div className="card shadow border-0 my-2">
+                                <a href="#"><img class="img-fluid p-2" style={{ height: "65px" }} src={client_5}
+                                    alt="partner-5" /></a>
+                            </div>
                         </div>
-                        <div className="col-2">
-                            <a href="#"><img class="img-fluid p-2" src={client_6}
-                                alt="partner-4" /></a>
+                        <div className="col-md-2 text-center">
+                            <div className="card shadow border-0 my-2">
+                                <a href="#"><img class="img-fluid p-2" style={{ height: "65px" }} src={client_6}
+                                    alt="partner-4" /></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -170,10 +160,8 @@ const Home = ({ }) => {
                                 </div>
 
                             </div>
-                            <div className="row">
-                                <p class="placeholder-glow">
-                                    <span class="placeholder col-12 placeholder-sm bg-primary"></span>
-                                </p>
+                            <div class="mb-2 progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style={{width: "100%"}}></div>
                             </div>
                             <div className="row">
                                 <div className="col">
@@ -184,10 +172,8 @@ const Home = ({ }) => {
                                 </div>
 
                             </div>
-                            <div className="row">
-                                <p class="placeholder-glow">
-                                    <span class="placeholder col-12 placeholder-sm bg-primary"></span>
-                                </p>
+                            <div class="mb-2 progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style={{width: "75%"}}></div>
                             </div>
                             
                             <div className="row">
@@ -198,21 +184,19 @@ const Home = ({ }) => {
                                     50%
                                 </div>
                             </div>
-                            <div className="row">
-                                <p class="placeholder-glow">
-                                    <span class="placeholder col-12 placeholder-sm bg-primary"></span>
-                                </p>
+                            <div class="mb-2 progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style={{width: "50%"}}></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section>
+            <section className="section section-lg-bottom bg-light my-">
                 <div className="">
                     <div class="container my-3">
                         <div class="row">
-                            <div class="col-12 text-center">
+                            <div class="col-md-12 text-center">
                                 <h2 class="section-title text-dark">JOBS</h2>
                             </div>
                         </div>
@@ -234,7 +218,7 @@ const Home = ({ }) => {
             <section class="section bg-cover" data-background="images/background/testimonial-3.jpg">
                 <div class="container">
                     <div class="row">
-                        <div className="col-3 px-3">
+                        <div className="col-md-3 px-3">
                             <div class="card shadow border-0 my-3" style={{ height: "125px" }}>
                                 <div class="card-body text-center">
                                     <h5 class="card-title">Fill Form</h5>
@@ -242,21 +226,21 @@ const Home = ({ }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-3 px-3">
+                        <div className="col-md-3 px-3">
                             <div class="card shadow border-0 my-3" style={{ height: "125px" }}>
                                 <div class="card-body text-center">
                                     <h5 class="card-title">Hire <br /> a Super Human !</h5>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-3 px-3">
+                        <div className="col-md-3 px-3">
                             <div class="card shadow border-0 my-3" style={{ height: "125px" }}>
                                 <div class="card-body text-center">
                                     <h5 class="card-title">Get <br /> The Best Team !</h5>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-3 px-3">
+                        <div className="col-md-3 px-3">
                             <div class="card shadow border-0 my-3" style={{ height: "125px" }}>
                                 <div class="card-body text-center">
                                     <h5 class="card-title">Book a Call</h5>
@@ -273,12 +257,12 @@ const Home = ({ }) => {
                 <div class="my-4">
                     <div className="container">
                         <div class="row">
-                            <div class="col-9 d-flex justify-content-start">
+                            <div class="col-md-9 d-flex justify-content-start">
                                 <div className="row">
-                                    <div className="col-12">
+                                    <div className="col-md-12">
                                         <h2 class="section-title text-dark">Call To Action</h2>
                                     </div>
-                                    <div className="col-12">
+                                    <div className="col-md-12">
                                         <p className="d-flex justify-content-start justify-text">
                                             Our company assign teams to companies for any remote work varying from software to sales. Each team have a dedicated team <br />
                                             manager who contact with the company. We also hire teams on orders. This whole process saves companies important time and effort <br />
@@ -288,7 +272,7 @@ const Home = ({ }) => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-3 d-flex justify-content-center my-3">
+                            <div class="col-md-3 d-flex justify-content-center my-3">
                                 <button type="button" class="btn btn-outline-primary my-5"><span className="">Book Call</span></button>
                             </div>
                         </div>
@@ -296,16 +280,16 @@ const Home = ({ }) => {
                 </div>
             </section>
 
-            <section>
+            <section className="section section-lg-bottom bg-light my-"> 
                 <div className="">
                     <div class="container my-3">
                         <div class="row">
-                            <div class="col-12 text-center">
+                            <div class="col-md-12 text-center">
                                 <h2 class="section-title text-dark">PORTFOLIO</h2>
                             </div>
                         </div>
                         <div className="row text-center">
-                            <div class="col-12 my-md-2 my-2">
+                            <div class="col-md-12 my-md-2 my-2">
                                 <button type="submit" class="btn btn-primary btn-lg border-0 w-100">Previous Companies</button>
                             </div>
                         </div>
@@ -316,7 +300,7 @@ const Home = ({ }) => {
             <section class="section bg-cover" data-background="images/background/testimonial-3.jpg">
                 <div class="container">
                     <div class="row">
-                        <div className="col-3 px-3">
+                        <div class="col-12 col-md-6 col-lg-3 px-3">
                             <div class="card shadow border-0 my-3" style={{ height: "140px" }}>
                                 <div class="card-body text-center">
                                     <div class="position-relative">
@@ -325,7 +309,7 @@ const Home = ({ }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-3 px-3">
+                        <div class="col-12 col-md-6 col-lg-3 px-3">
                             <div class="card shadow border-0 my-3" style={{ height: "140px" }}>
                                 <div class="card-body text-center">
                                     <div class="position-relative">
@@ -334,7 +318,7 @@ const Home = ({ }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-3 px-3">
+                        <div class="col-12 col-md-6 col-lg-3 px-3">
                             <div class="card shadow border-0 my-3" style={{ height: "140px" }}>
                                 <div class="card-body text-center">
                                     <div class="position-relative">
@@ -343,7 +327,7 @@ const Home = ({ }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-3 px-3">
+                        <div class="col-12 col-md-6 col-lg-3 px-3">
                             <div class="card shadow border-0 my-3" style={{ height: "140px" }}>
                                 <div class="card-body text-center">
                                     <div class="position-relative">
@@ -353,6 +337,7 @@ const Home = ({ }) => {
                             </div>
                         </div>
                     </div>
+
                 </div>
             </section>
 
@@ -360,48 +345,48 @@ const Home = ({ }) => {
                 <div className="">
                     <div class="container my-3">
                         <div class="row">
-                            <div class="col-12 text-center">
+                            <div class="col-md-12 text-center">
                                 <h2 class="section-title text-dark">TEAMS</h2>
                                 <p className="italic">This process have a lot of advantages, some are listed below-</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div className="col-6 px-3">
+                            <div className="col-md-6 px-3">
                                 <div class="card shadow border-0 my-3" style={{ height: "300px" }}>
                                     <div class="card-body">
                                         <h5 class="card-title text-center text-primary"><h2>AI</h2></h5>
                                         <div className="row">
-                                            <div className="col-12">
+                                            <div className="col-md-12">
                                                 <p>People with experience for over a decade</p>
                                             </div>
-                                            <div className="col-12">
+                                            <div className="col-md-12">
                                                 <p>Microsoft LEAD ENGINEER </p>
                                             </div>
-                                            <div className="col-12">
+                                            <div className="col-md-12">
                                                 <p>Apple HEAD CONSULTANT</p>
                                             </div>
-                                            <div className="col-12">
+                                            <div className="col-md-12">
                                                 <p> A decade of  experience working with all languages Professional </p>
                                             </div>
-                                            <div className="col-12">
+                                            <div className="col-md-12">
                                                 <p>9x Google Code Jam Champion</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-6 px-3">
+                            <div className="col-md-6 px-3">
                                 <div class="card shadow border-0 my-3" style={{ height: "300px" }}>
                                     <div class="card-body">
                                         <h5 class="card-title text-center text-primary"><h2>SALES</h2></h5>
                                         <div className="row">
-                                            <div className="col-12">
+                                            <div className="col-md-12">
                                                 <p>Have scaled companies to 500k$ per month in just 3 month !!!</p>
                                             </div>
-                                            <div className="col-12">
+                                            <div className="col-md-12">
                                                 <p>Outreaching through multiple sources.</p>
                                             </div>
-                                            <div className="col-12">
+                                            <div className="col-md-12">
                                                 <p>Have account with 500k+ followers</p>
                                             </div>
                                         </div>
@@ -410,24 +395,24 @@ const Home = ({ }) => {
                             </div>
                         </div>
                         <div class="row">
-                            <div className="col-6 px-3">
+                            <div className="col-md-6 px-3">
                                 <div class="card shadow border-0 my-3" style={{ height: "300px" }}>
                                     <div class="card-body">
                                         <h5 class="card-title text-center text-primary"><h2>SOFTWARE DEVELOPMENT</h2></h5>
                                         <div className="row">
-                                            <div className="col-12">
+                                            <div className="col-md-12">
                                                 <p>Head Developers from companies like Google, Microsoft etc.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-6 px-3">
+                            <div className="col-md-6 px-3">
                                 <div class="card shadow border-0 my-3" style={{ height: "300px" }}>
                                     <div class="card-body">
                                         <h5 class="card-title text-center text-primary"><h2>GAME DEVELOPMENT</h2></h5>
                                         <div className="row">
-                                            <div className="col-12">
+                                            <div className="col-md-12">
                                                 <p>Developers from company like Krafton and Rockstar.</p>
                                             </div>
                                         </div>
@@ -443,13 +428,13 @@ const Home = ({ }) => {
                 <div className="">
                     <div class="container my-3">
                         <div class="row">
-                            <div class="col-12 text-center">
+                            <div class="col-md-12 text-center">
                                 <h2 class="section-title text-dark">PROJECTS</h2>
                                 <p className="italic">Assign us projects regarding any remote field and we will complete it in the best way possible. Ex- A full game ,agency etc.</p>
                             </div>
                         </div>
                         <div class="row text-center">
-                            <div className="col-6 px-3">
+                            <div className="col-md-6 px-3">
                                 <div class="card shadow border-0 my-3" style={{ height: "125px" }}>
                                     <div class="card-body">
                                         <h5 class="card-title text-center text-primary"><h2>Book Call</h2></h5>
@@ -457,7 +442,7 @@ const Home = ({ }) => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-6 px-3">
+                            <div className="col-md-6 px-3">
                                 <div class="card shadow border-0 my-3" style={{ height: "125px" }}>
                                     <div class="card-body">
                                         <h5 class="card-title text-center text-primary"><h2>Fill A Form</h2></h5>
