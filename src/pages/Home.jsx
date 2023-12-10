@@ -56,27 +56,27 @@ const Home = ({ }) => {
                 <div class="container my-3">
                     <div class="row">
                         <div className="col-2">
-                            <a href="#"><img class="img-fluid p-2" style={{ height: "65px" }} src={client_1}
+                            <a href="#"><img class="img-fluid p-2" src={client_1}
                                 alt="partner-1" /></a>
                         </div>
                         <div className="col-2">
-                            <a href="#"><img class="img-fluid p-2" style={{ height: "65px" }} src={client_2}
+                            <a href="#"><img class="img-fluid p-2" src={client_2}
                                 alt="partner-2" /></a>
                         </div>
                         <div className="col-2">
-                            <a href="#"><img class="img-fluid p-2" style={{ height: "65px" }} src={client_3}
+                            <a href="#"><img class="img-fluid p-2"src={client_3}
                                 alt="partner-3" /></a>
                         </div>
                         <div className="col-2">
-                            <a href="#"><img class="img-fluid p-2" style={{ height: "65px" }} src={client_4}
+                            <a href="#"><img class="img-fluid p-2" src={client_4}
                                 alt="partner-4" /></a>
                         </div>
                         <div className="col-2">
-                            <a href="#"><img class="img-fluid p-2" style={{ height: "65px" }} src={client_5}
+                            <a href="#"><img class="img-fluid p-2" src={client_5}
                                 alt="partner-5" /></a>
                         </div>
                         <div className="col-2">
-                            <a href="#"><img class="img-fluid p-2" style={{ height: "65px" }} src={client_6}
+                            <a href="#"><img class="img-fluid p-2" src={client_6}
                                 alt="partner-4" /></a>
                         </div>
                     </div>
@@ -161,8 +161,48 @@ const Home = ({ }) => {
                         <div class="col-md-6 pl-lg-4">
                             <h2 class="section-title">Advantages of this process</h2>
                             <p className="fst-italic">This process have a lot of advantages, some are listed below-</p>
-                            <h6>SAVING TIME AND EFFORT</h6>
+                            <div className="row">
+                                <div className="col">
+                                    <h6>SAVING TIME AND EFFORT</h6>
+                                </div>
+                                <div className="col d-flex justify-content-end">
+                                    100%
+                                </div>
 
+                            </div>
+                            <div className="row">
+                                <p class="placeholder-glow">
+                                    <span class="placeholder col-12 placeholder-sm bg-primary"></span>
+                                </p>
+                            </div>
+                            <div className="row">
+                                <div className="col">
+                                <h6>TOP TIER TALENT</h6>
+                                </div>
+                                <div className="col d-flex justify-content-end">
+                                    75%
+                                </div>
+
+                            </div>
+                            <div className="row">
+                                <p class="placeholder-glow">
+                                    <span class="placeholder col-12 placeholder-sm bg-primary"></span>
+                                </p>
+                            </div>
+                            
+                            <div className="row">
+                                <div className="col">
+                                <h6>COST</h6>
+                                </div>
+                                <div className="col d-flex justify-content-end">
+                                    50%
+                                </div>
+                            </div>
+                            <div className="row">
+                                <p class="placeholder-glow">
+                                    <span class="placeholder col-12 placeholder-sm bg-primary"></span>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
