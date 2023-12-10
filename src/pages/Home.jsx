@@ -32,37 +32,24 @@ import client_3 from "../images/client-3.png"
 import client_4 from "../images/client-4.png"
 import client_5 from "../images/client-5.png"
 import client_6 from "../images/client-6.png"
+import mainImage from "../images/mainImage.png"
 
 const Home = ({ }) => {
 
     return (
         <>
-            <section class="hero-area hero-area-lg position-relative">
+            <section class="hero-area hero-area-lg position-relative my-5">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-6 text-center text-lg-left mb-4 mb-lg-0">
                             <h1 class="text-dark position-relative">A Revolution in Jobs <br /> "Hire Superhumans"</h1>
                             <p class="mb-4 text-dark">Hire Teams for any remote jobs varying from Ai to Sales for jobs or projects. Collaborated with 50+ businesses and have 100+ teams</p>
-                            {/* <ul class="list-inline">
-                                <li class="list-inline-item mx-1 my-2">
-                                    <a href="#" class="btn btn-primary">
-                                        <img src={GooglePlayWhite} class="img-fluid mr-2" alt="play-store" /> Google Play</a>
-                                </li>
-                                <li class="list-inline-item mx-1 my-2">
-                                    <a href="#" class="btn btn-outline-primary"><i class="fa fa-apple text-secondary mr-3 transition"></i>App
-                                        Store</a>
-                                </li>
-                            </ul> */}
                         </div>
                         <div class="col-lg-6 position-relative">
-                            <img src={banner2} class="img-fluid w-100" alt="banner-image" />
-                            <img src={dot1} class="img-fluid bg-shape-3" alt="bg-shape" />
+                            <img src={mainImage} class="img-fluid w-100" alt="banner-image" />
                         </div>
                     </div>
                 </div>
-
-                {/* <img src={banner} class="img-fluid bg-shape-1" alt="bg-shape" />
-                <img src={dot2} class="img-fluid bg-shape-2" alt="bg-shape" /> */}
             </section>
 
             <section class="section section-lg-bottom bg-light my-4">
@@ -119,7 +106,6 @@ const Home = ({ }) => {
                         </div>
                     </div>
                 </div>
-                {/* <img src={curveShape_2} class="img-fluid feature-bg-shape" alt="background-shape"/> */}
             </section>
 
             <section class="section pb-0 my-4">
@@ -139,7 +125,6 @@ const Home = ({ }) => {
                                     </div>
                                     <div class="align-self-center">
                                         <h5>How do I get started with my company?</h5>
-                                        {/* <p class="mb-0">Lorem ipsum dolor sit amet consect.</p> */}
                                     </div>
                                 </li>
                                 <li class="bg-white d-inline-flex shadow rounded-xs p-4 my-2">
@@ -148,7 +133,6 @@ const Home = ({ }) => {
                                     </div>
                                     <div class="align-self-center">
                                         <h5>What fields are available? And what about location</h5>
-                                        {/* <p class="mb-0">Lorem ipsum dolor sit amet consect.</p> */}
                                     </div>
                                 </li>
                                 <li class="bg-white d-inline-flex shadow rounded-xs p-4 my-2">
@@ -184,55 +168,6 @@ const Home = ({ }) => {
                 </div>
             </section>
 
-            {/* <section class="section position-relative overflow-hidden">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 align-self-center pr-lg-4 mb-4 mb-md-0">
-                            <p class="subtitle" >Work Process</p>
-                            <h2 class="section-title" >Rehenderit volupate velit proident sunt culpa</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipicing elit sed do usmod tempor
-                                incididunt.enim ad
-                                minim veniam, quis nostrud exer citation ulla mco laboris nisi ut aliquip commodo.</p>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accu santium
-                                doloreque laudantum.</p>
-                        </div>
-                        <div class="col-md-6 pl-lg-4">
-                        <h2 class="section-title">It is like getting a superhuman for your company becauzm,cvmcse the communication is only with one person.n</h2>
-                            <ul class="list-unstyled process-steps">
-                                <li class="bg-white d-inline-flex shadow rounded-xs p-4">
-                                    <div class="mr-3">
-                                        <span class="text-secondary step-number bg-gray-light rounded-circle">01</span>
-                                    </div>
-                                    <div class="align-self-center">
-                                        <h5>Extreme Security</h5>
-                                        <p class="mb-0">Lorem ipsum dolor sit amet consect.</p>
-                                    </div>
-                                </li>
-                                <li class="bg-white d-inline-flex shadow rounded-xs p-4">
-                                    <div class="mr-3">
-                                        <span class="text-secondary step-number bg-gray-light rounded-circle">02</span>
-                                    </div>
-                                    <div class="align-self-center">
-                                        <h5>Extreme Security</h5>
-                                        <p class="mb-0">Lorem ipsum dolor sit amet consect.</p>
-                                    </div>
-                                </li>
-                                <li class="bg-white d-inline-flex shadow rounded-xs p-4">
-                                    <div class="mr-3">
-                                        <span class="text-secondary step-number bg-gray-light rounded-circle">02</span>
-                                    </div>
-                                    <div class="align-self-center">
-                                        <h5>Extreme Security</h5>
-                                        <p class="mb-0">Lorem ipsum dolor sit amet consect.</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <img src={curveShape_2} class="img-fluid process-bg-shape" alt="bg-shape" />
-            </section> */}
-
             <section>
                 <div className="">
                     <div class="container my-3">
@@ -255,45 +190,6 @@ const Home = ({ }) => {
                     </div>
                 </div>
             </section>
-
-            {/* <section class="section pt-0">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 pr-lg-5 mb-4 mb-md-0">
-                            <img src={integration_1} class="img-fluid" alt="illustration" />
-                        </div>
-                        <div class="col-md-6 pl-lg-5">
-                            <p class="subtitle">Services</p>
-                            <h2 class="section-title">Aspernatur aut odit fugit sed quia consetur.</h2>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipicing elit sed do usmod tempor incididunt.enim ad
-                                minim
-                                veniam, quis nostrud exer citation ulla mco laboris nisi ut aliquip commodo.</p>
-                            <ul class="list-unstyled">
-                                <li class="d-flex mb-4">
-                                    <div class="pr-3 pr-lg-5">
-                                        <i class="fa fa-check text-secondary bg-white shadow icon-sm"></i>
-                                    </div>
-                                    <div>
-                                        <h5>Extreme Security</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore
-                                            magna.</p>
-                                    </div>
-                                </li>
-                                <li class="d-flex">
-                                    <div class="pr-3 pr-lg-5">
-                                        <i class="fa fa-check text-secondary bg-white shadow icon-sm"></i>
-                                    </div>
-                                    <div>
-                                        <h5>Extreme Security</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore
-                                            magna.</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section> */}
 
             <section class="section bg-cover" data-background="images/background/testimonial-3.jpg">
                 <div class="container">
