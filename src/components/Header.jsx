@@ -7,31 +7,32 @@ import Col from "react-bootstrap/esm/Col";
 const Header = ({}) => {
   
   return (
-    <>   
-      <div class="container-fluid">
-        <div class="naviagtion naviagtion-white fixed-top transition">
-          <nav class="navbar navbar-expand-lg navbar-light p-2 bg-primary opacity-75">
-            <h3>Elite Teams - Hire Teams</h3>
-            <div class="collapse navbar-collapse text-center" id="navigation">
-              <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                  <a class="nav-link text-dark text-capitalize" href="about.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark text-capitalize" href="about.html">about</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark text-capitalize" href="services.html">services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark text-capitalize" href="contact.html">contact</a>
-                </li>
-              </ul>
-              <a href="#" class="btn btn-outline-dark text-dark ml-3">Book Call</a>
-            </div>
-          </nav>
+    <>
+      <nav class="navbar navbar-expand-lg bg-primary opacity-75">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Elite Teams - Hire Teams</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Jobs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Projects</a>
+              </li>
+            </ul>
+            <button class="btn btn-outline-success text-white" type="submit">Book Call</button>
+          </div>
         </div>
-      </div>
+      </nav>
     </>
   );
 };
